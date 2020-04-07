@@ -1,0 +1,156 @@
+body {
+  background-image: url(../images/BG@1X.png); }
+
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+header .logo {
+  width: 142px;
+  margin: 27px auto 0; }
+header h1 {
+  width: max-content;
+  margin: 112px auto 0; }
+header h1:first-letter {
+  text-transform: capitalize; }
+header p {
+  max-width: 615px;
+  margin: 12px auto;
+  font-family: Tahoma,Tahoma-Bold,AdobeInvisFont,MyriadPro-Regular;
+  font-size: 16px; }
+header .main-button {
+  width: 500px;
+  margin: 26px auto 210px; }
+  header .main-button a.button1 {
+    color: #000000;
+    width: 247px;
+    height: 67px;
+    display: inline-block;
+    font-family: Tahoma-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: none; }
+  header .main-button a:first-letter {
+    text-transform: capitalize; }
+  header .main-button a:first-child {
+    background: #F4C32F; }
+  header .main-button a.button1:hover {
+    border: 1px solid red;
+    background: lawngreen; }
+  header .main-button a.button1:active {
+    color: white;
+    border: 1px solid orange;
+    background: green; }
+
+article {
+  background-color: #EFEFEF; }
+  article .wrap-main {
+    max-width: 1230px;
+    margin: 0 auto; }
+    article .wrap-main h2 {
+      width: max-content;
+      padding-top: 30px;
+      margin: 0px auto 80px;
+      font-family: Tahoma-Bold,AdobeInvisFont,MyriadPro-Regular;
+      font-size: 38; }
+    article .wrap-main h2:first-letter {
+      text-transform: capitalize; }
+    article .wrap-main .midl {
+      text-align: justify;
+      text-align-last: justify;
+      -webkit-text-align-last: justify; }
+      article .wrap-main .midl a {
+        display: inline-block;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px 15px 60px;
+        color: black; }
+        article .wrap-main .midl a figure {
+          width: 354px; }
+          article .wrap-main .midl a figure img {
+            margin: 0 auto 23px; }
+          article .wrap-main .midl a figure h4 {
+            width: max-content;
+            margin: 0 auto 15px;
+            font-family: AdobeInvisFont,MyriadPro-Regular;
+            font-size: 20px;
+            text-transform: capitalize; }
+          article .wrap-main .midl a figure figcaption {
+            text-align-last: center; }
+      article .wrap-main .midl a:last-child {
+        text-decoration: underline;
+        display: block;
+        width: max-content;
+        margin: 0 auto 15px;
+        color: #275FE0;
+        font-size: 17px;
+        padding: 15px 0 100px; }
+      article .wrap-main .midl a img:hover {
+        transform: scale(1.5); }
+
+h2.down {
+  width: max-content;
+  margin: 100px auto 60px;
+  font-size: 38px;
+  font-family: Tahoma-Bold,AdobeInvisFont,MyriadPro-Regular; }
+
+h2.down:first-letter {
+  text-transform: capitalize; }
+
+section.down .wrap-down {
+  max-width: 1230px;
+  margin: 0 auto;
+  text-align: justify; }
+  section.down .wrap-down ol.colom1 {
+    float: left;
+    counter-reset: num; }
+  section.down .wrap-down ol.colom2 {
+    float: right; }
+  section.down .wrap-down ol.colom2::after {
+    clear: both; }
+  section.down .wrap-down ol {
+    width: 330px;
+    list-style-type: none;
+    list-style-position: outside; }
+    section.down .wrap-down ol li::before {
+      content: "0" counter(num);
+      counter-increment: num;
+      color: #A8A8A8;
+      font-family: Tahoma,AdobeInvisFont,MyriadPro-Regular;
+      font-size: 31px;
+      display: inline-block; }
+    section.down .wrap-down ol li h4 {
+      font-family: Tahoma-Bold,AdobeInvisFont,MyriadPro-Regular;
+      font-size: 20px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 4px 0px 14px 20px; }
+    section.down .wrap-down ol li h4::first-letter {
+      text-transform: capitalize; }
+    section.down .wrap-down ol li p {
+      margin: 0 0 0 60px;
+      padding-bottom: 40px;
+      font-size: 15px;
+      font-family: Tahoma,AdobeInvisFont,MyriadPro-Regular; }
+  section.down .wrap-down img {
+    margin: 0 auto; }
+
+footer {
+  background-color: #EFEFEF;
+  text-align: center; }
+  footer p {
+    display: inline-block;
+    font-family: Tahoma,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 13px;
+    color: #A1A1A1;
+    vertical-align: top;
+    padding-top: 60px; }
+  footer img {
+    display: inline-block;
+    margin: 50px 100px; }
+
+/*# sourceMappingURL=style.css.map */
