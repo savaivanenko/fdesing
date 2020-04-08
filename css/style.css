@@ -140,6 +140,7 @@ section.down .wrap-down {
     margin: 0 auto; }
 
 footer {
+  height: 130px;
   background-color: #EFEFEF;
   text-align: center; }
   footer p {
@@ -152,5 +153,8 @@ footer {
   footer img {
     display: inline-block;
     margin: 50px 100px; }
+
+.clear {
+  clear: both; }
 
 /*# sourceMappingURL=style.css.map */

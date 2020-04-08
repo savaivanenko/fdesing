@@ -140,6 +140,11 @@ article .wrap-main .midl a:last-child {
   padding: 15px 0 100px;
 }
 
+article .wrap-main .midl a img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 h2.down {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -153,7 +158,84 @@ h2.down:first-letter {
   text-transform: capitalize;
 }
 
-section.down {
-  background-color: #FFFFFF;
+section.down .wrap-down {
+  max-width: 1230px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+section.down .wrap-down ol.colom1 {
+  float: left;
+  counter-reset: num;
+}
+
+section.down .wrap-down ol.colom2 {
+  float: right;
+}
+
+section.down .wrap-down ol.colom2::after {
+  clear: both;
+}
+
+section.down .wrap-down ol {
+  width: 330px;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+section.down .wrap-down ol li::before {
+  content: "0" counter(num);
+  counter-increment: num;
+  color: #A8A8A8;
+  font-family: Tahoma,AdobeInvisFont,MyriadPro-Regular;
+  font-size: 31px;
+  display: inline-block;
+}
+
+section.down .wrap-down ol li h4 {
+  font-family: Tahoma-Bold,AdobeInvisFont,MyriadPro-Regular;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 4px 0px 14px 20px;
+}
+
+section.down .wrap-down ol li h4::first-letter {
+  text-transform: capitalize;
+}
+
+section.down .wrap-down ol li p {
+  margin: 0 0 0 60px;
+  padding-bottom: 40px;
+  font-size: 15px;
+  font-family: Tahoma,AdobeInvisFont,MyriadPro-Regular;
+}
+
+section.down .wrap-down img {
+  margin: 0 auto;
+}
+
+footer {
+  height: 130px;
+  background-color: #EFEFEF;
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  font-family: Tahoma,AdobeInvisFont,MyriadPro-Regular;
+  font-size: 13px;
+  color: #A1A1A1;
+  vertical-align: top;
+  padding-top: 60px;
+}
+
+footer img {
+  display: inline-block;
+  margin: 50px 100px;
+}
+
+.clear {
+  clear: both;
 }
 /*# sourceMappingURL=style.css.map */

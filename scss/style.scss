@@ -181,6 +181,7 @@ section.down{
     }
 }
 footer{
+    height: 130px;
     background-color: #EFEFEF;
     text-align: center;
     p{
@@ -195,4 +196,7 @@ footer{
         display: inline-block;
         margin: 50px 100px;
     }
+}
+.clear{
+    clear: both;
 }
