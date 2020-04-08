@@ -154,7 +154,9 @@ footer {
     display: inline-block;
     margin: 50px 100px; }
 
-.clear {
+.clearfix::after {
+  content: "";
+  display: table;
   clear: both; }
 
 /*# sourceMappingURL=style.css.map */

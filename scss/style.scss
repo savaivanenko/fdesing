@@ -197,6 +197,7 @@ footer{
         margin: 50px 100px;
     }
 }
-.clear{
-    clear: both;
-}
+// .clear{
+//     clear: both;
+// }
+.clearfix::after { content: ""; display: table; clear: both; }
